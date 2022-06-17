@@ -23,12 +23,13 @@ function UserSearch() {
     }
   };
   return (
-    <div className="grid grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 mb-8 gap-8">
+    <div id="main-search-bar" className="container mx-auto px-3 pb-12">
       <div>
         <form onSubmit={handleSubmit}>
           <div className="form-control">
             <div className="relative">
               <input
+                id="search-bar-input-text"
                 type="text"
                 className="w-full pr-40 bg-gray-200 input input-lg text-black"
                 placeholder="Search"

@@ -6,3 +6,32 @@
   border-radius: 0.5rem;
   opacity: 0.45;
 }
+
+#main-search-bar {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .w-36 {
+    width: 5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #home-about {
+    flex-wrap: wrap;
+  }
+
+  #github-text {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #search-bar-input-text {
+    padding-right: 0;
+  }
+}
