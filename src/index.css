@@ -32,6 +32,17 @@
 }
 
 @media screen and (max-width: 400px) {
+  #github-text {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #search-bar-input-text {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
   #home-about {
     flex-wrap: wrap;
   }
@@ -39,6 +50,10 @@
   #github-text {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  #github-text a {
+    font-size: 1rem;
   }
 
   #search-bar-input-text {
