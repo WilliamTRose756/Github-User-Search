@@ -46,10 +46,6 @@
   #search-bar-input-text {
     padding-right: 0;
   }
-
-  .text-lg {
-    font-size: 1rem;
-  }
 }
 
 @media screen and (max-width: 350px) {
@@ -60,10 +56,6 @@
   #github-text {
     padding-left: 0;
     padding-right: 0;
-  }
-
-  #github-text a {
-    font-size: 1rem;
   }
 
   #search-bar-input-text {
